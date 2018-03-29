@@ -12,7 +12,10 @@ var even_asc_odd_desc = function(collection){
   right_collection.sort(function(a,b){
     return b-a;
   });
-  return left_collection+right_collection;
+  for(let item of right_collection){
+    left_collection.push(item);
+  }
+  return left_collection;
 };
 // var collection_a = [4, 32, 12, 45, 67, 46, 2, 53, 68, 54, 11];
 // console.log(even_asc_odd_desc(collection_a));

@@ -2,7 +2,7 @@
 
 function compute_chain_median(collection) {
   //在这里写入代码
-  var ary = chain.split('->').sort(function(a,b){
+  var ary = collection.split('->').sort(function(a,b){
     return a-b;
   });
   // console.log(ary);

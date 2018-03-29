@@ -48,4 +48,4 @@ function create_updated_collection(collection_a, object_b) {
 //
 // var object_b = {value: ["a", "d", "e", "f"]};
 // console.log(create_updated_collection(collection_a,object_b));
-// module.exports = create_updated_collection;
+ module.exports = create_updated_collection;
